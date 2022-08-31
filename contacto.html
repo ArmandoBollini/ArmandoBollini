@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>F&B Soft</title>
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preload" href="CSS/style.css" as="style">
+        <link rel="stylesheet" href="CSS/style.css">
+        
+    </head>
+<body>
+    <div class="nav-bg sombra_header">
+        <nav class="navegacion-principal contenedor">
+            <img src="img/LOGO.jpg" alt="B&F Soft">
+            <a href="index.html">Inicio</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="contacto.html">Contacto</a> 
+            <a href="ingresar.html">Ingresar</a>
+            <a href="planes.html">Planes</a>
+        </nav>
+    </div>
+
+    <div id="contacto" class="contacto" >
+        <h2>Contacto</h2>
+        
+        <form class="formulario sombra" action="mailto:abollini@estudiobollini.com.ar" method="POST">
+
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre</label>
+
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="campo">
+                    <label>Teléfono</label>
+
+                    <input type="tel" name="telefono" placeholder="Teléfono" >
+                </div>
+                <div class="campo w-100">
+                    <label>Correo</label>
+
+                    <input type="mail" name="correo" placeholder="Mail" required>
+                </div>
+                <div class="campo w-100">
+                    <label>Mensaje:</label>
+
+                    <textarea placeholder="Mensaje" required></textarea>
+                </div>
+            </div><!--.contenedor-campos-->
+            <div class="enviar">
+                <input class="boton" type="submit" value="Enviar">
+            </div>
+        </form>
+</div>
+</body>
+</html>
